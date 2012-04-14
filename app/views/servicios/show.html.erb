@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Tiposervicio:</b>
+  <%= @servicio.tiposervicio %>
+</p>
+
+<p>
+  <b>Descripcion:</b>
+  <%= @servicio.descripcion %>
+</p>
+
+<p>
+  <b>Local:</b>
+  <%= @servicio.local_id %>
+</p>
+
+<p>
+  <b>Tarifa diurna:</b>
+  <%= @servicio.tarifa_diurna %>
+</p>
+
+<p>
+  <b>Tarifa nocturna:</b>
+  <%= @servicio.tarifa_nocturna %>
+</p>
+
+<p>
+  <b>Promocion:</b>
+  <%= @servicio.promocion %>
+</p>
+
+
+<%= link_to 'Edit', edit_servicio_path(@servicio) %> |
+<%= link_to 'Back', servicios_path %>

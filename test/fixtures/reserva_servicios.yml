@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  reserva_id: 1
+  servicio_id: 1
+  hora: 1
+  cantidad: 1
+  precio_unitario: 1
+  total: 1
+
+two:
+  reserva_id: 1
+  servicio_id: 1
+  hora: 1
+  cantidad: 1
+  precio_unitario: 1
+  total: 1

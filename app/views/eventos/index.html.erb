@@ -1,0 +1,35 @@
+<h1>Eventos</h1>
+
+<table>
+  <tr>
+    <th>Descripcion</th>
+    <th>Premio</th>
+    <th>Equipos</th>
+    <th>Inicio</th>
+    <th>Final</th>
+    <th>Fecha inscripcion</th>
+    <th>Propietario</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @eventos.each do |evento| %>
+  <tr>
+    <td><%= evento.descripcion %></td>
+    <td><%= evento.premio %></td>
+    <td><%= evento.cantidad_equipos %></td>
+    <td><%= evento.fecha_inicio %></td>
+    <td><%= evento.fecha_fin %></td>
+    <td><%= evento.fecha_inscripcion %></td>
+    <td><%= evento.cliente.nombre%> <%= evento.cliente.apellido%></td>
+    <td><%= link_to 'Show', evento %></td>
+    <td><%= link_to 'Edit', edit_evento_path(evento) %></td>
+    <td><%= link_to 'Destroy', evento, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Evento', new_evento_path %>

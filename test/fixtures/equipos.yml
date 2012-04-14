@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  evento_id: 1
+  nombre: 
+  cliente_id: 1
+
+two:
+  evento_id: 1
+  nombre: 
+  cliente_id: 1

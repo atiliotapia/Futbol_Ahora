@@ -1,0 +1,37 @@
+<h1>Listing reservas</h1>
+
+<table>
+  <tr>
+    <th>Cliente</th>
+    <th>Local</th>
+    <th>Fecha emision</th>
+    <th>Hora inicio</th>
+    <th>Hora final</th>
+    <th>Estado</th>
+    <th>Validez pre reserva</th>
+    <th>Total</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @reservas.each do |reserva| %>
+  <tr>
+    <td><%= reserva.cliente_id %></td>
+    <td><%= reserva.local_id %></td>
+    <td><%= reserva.fecha_emision %></td>
+    <td><%= reserva.hora_inicio %></td>
+    <td><%= reserva.hora_final %></td>
+    <td><%= reserva.estado %></td>
+    <td><%= reserva.validez_pre_reserva %></td>
+    <td><%= reserva.total %></td>
+    <td><%= link_to 'Show', reserva %></td>
+    <td><%= link_to 'Edit', edit_reserva_path(reserva) %></td>
+    <td><%= link_to 'Destroy', reserva, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Reserva', new_reserva_path %>

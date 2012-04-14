@@ -1,0 +1,52 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Descripcion:</b>
+  <%= @evento.descripcion %>
+</p>
+
+<p>
+  <b>Premio:</b>
+  <%= @evento.premio %>
+</p>
+
+<p>
+  <b>Cantidad equipos:</b>
+  <%= @evento.cantidad_equipos %>
+</p>
+
+<p>
+  <b>Inicio:</b>
+  <%= @evento.fecha_inicio %>
+</p>
+
+<p>
+  <b>Fin:</b>
+  <%= @evento.fecha_fin %>
+</p>
+
+<p>
+  <b>Fecha limite de inscripcion:</b>
+  <%= @evento.fecha_inscripcion %>
+</p>
+
+<p>
+  <b>Organizador:</b>
+  <%= @evento.cliente.nombre %>   <%= @evento.cliente.apellido %>
+</p>
+
+
+<h2>Equipos que participan:</h2>
+<table>
+<% @evento.clientes.each do |vo| %>
+  <tr>
+  <td> <%= vo.nombre %>    
+  </td>    
+  </tr>
+<% end %>
+</table>
+
+
+<%= link_to 'Edit', edit_evento_path(@evento) %> |
+<%= link_to 'Back', eventos_path %>
+<%= link_to 'Agregar Equipo', agregar_equipo_evento_path(@evento) %>

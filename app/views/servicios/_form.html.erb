@@ -1,0 +1,16 @@
+<%= simple_form_for(@servicio) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="inputs">
+    <%= f.input :tiposervicio %>
+    <%= f.input :descripcion %>
+    <%= f.input :local_id %>
+    <%= f.input :tarifa_diurna %>
+    <%= f.input :tarifa_nocturna %>
+    <%= f.input :promocion %>
+  </div>
+
+  <div class="actions">
+    <%= f.button :submit %>
+  </div>
+<% end %>

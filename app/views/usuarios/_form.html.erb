@@ -1,0 +1,13 @@
+<%= simple_form_for(@usuario) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="inputs">
+    <%= f.input :correo %>
+    <%= f.input :clave %>
+    <%= f.association :cliente, :label_method => lambda { |r| "#{r.nombre} #{r.apellido}" }, :prompt => 'Seleccione'  %>  	    
+  </div>
+
+  <div class="actions">
+    <%= f.button :submit %>
+  </div>
+<% end %>

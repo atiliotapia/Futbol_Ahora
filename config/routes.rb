@@ -1,21 +1,43 @@
 Bookstore::Application.routes.draw do
  
-  resources :users do
-  member do
-    get "add_book"
+  resources :clientes
+
+  resources :reservas
+
+  resources :reserva_servicios
+
+  resources :servicios
+
+  resources :comentarios
+
+  resources :locals
+
+  resources :ciudads
+
+  resources :equipos
+
+  resources :usuarios
+
+  resources :publicidads
+
+  resources :eventos do
+    member do
+      get "agregar_equipo"
+    end
   end
-end
+
+  resources :clientetipos
+
+  resources :documentotipos
+
+  resources :reservas do
+    member do
+      get "agregar_servicio"
+    end
+  end
+
+
   
-  resources :authors
-
-  resources :user_books
-
-  resources :people_books
-
-  resources :people
-
-  resources :books
-
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

@@ -1,0 +1,17 @@
+<%= simple_form_for(@evento) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="inputs">
+    <%= f.input :descripcion %>
+    <%= f.input :premio %>
+    <%= f.input :cantidad_equipos %>
+    Fecha Inicio: <%= f.datepicker :fecha_inicio %> <br>
+    Fecha Final:<%= f.datepicker :fecha_fin %><br>
+    Fecha Limite de Inscripcion<%= f.datepicker :fecha_inscripcion %><br>
+    Organizador:	<%= f.association :cliente, :label_method => lambda { |r| "#{r.nombre} #{r.apellido}" }, :prompt => 'Seleccione'  %>  	    
+  </div>
+
+  <div class="actions">
+    <%= f.button :submit %>
+  </div>
+<% end %>

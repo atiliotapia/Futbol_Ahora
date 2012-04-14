@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  titulo: MyString
+  contenido: MyText
+  fecha_inicio: 2012-04-13
+  fecha_final: 2012-04-13
+  numero_click: 1
+  tarifa: 1
+  clientetipo_id: 1
+
+two:
+  titulo: MyString
+  contenido: MyText
+  fecha_inicio: 2012-04-13
+  fecha_final: 2012-04-13
+  numero_click: 1
+  tarifa: 1
+  clientetipo_id: 1

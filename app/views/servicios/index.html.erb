@@ -1,0 +1,33 @@
+<h1>Listing servicios</h1>
+
+<table>
+  <tr>
+    <th>Tiposervicio</th>
+    <th>Descripcion</th>
+    <th>Local</th>
+    <th>Tarifa diurna</th>
+    <th>Tarifa nocturna</th>
+    <th>Promocion</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @servicios.each do |servicio| %>
+  <tr>
+    <td><%= servicio.tiposervicio %></td>
+    <td><%= servicio.descripcion %></td>
+    <td><%= servicio.local_id %></td>
+    <td><%= servicio.tarifa_diurna %></td>
+    <td><%= servicio.tarifa_nocturna %></td>
+    <td><%= servicio.promocion %></td>
+    <td><%= link_to 'Show', servicio %></td>
+    <td><%= link_to 'Edit', edit_servicio_path(servicio) %></td>
+    <td><%= link_to 'Destroy', servicio, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Servicio', new_servicio_path %>

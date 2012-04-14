@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  descripcion: MyString
+  premio: MyString
+  cantidad_equipos: 1
+  fecha_inicio: 2012-04-13
+  fecha_fin: 2012-04-13
+  fecha_inscripcion: 2012-04-13
+  cliente_id: 1
+
+two:
+  descripcion: MyString
+  premio: MyString
+  cantidad_equipos: 1
+  fecha_inicio: 2012-04-13
+  fecha_fin: 2012-04-13
+  fecha_inscripcion: 2012-04-13
+  cliente_id: 1

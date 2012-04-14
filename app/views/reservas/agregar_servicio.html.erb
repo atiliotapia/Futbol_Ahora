@@ -1,0 +1,10 @@
+<h2>#Reserva, 
+<%=@reserva.id%>
+</h2>
+<%= simple_form_for @reserva do |vo_reserva| %>
+<%= vo_reserva.association :servicios, :label_method => lambda { |r| "#{r.descripcion}  -->  S/. #{r.tarifa_nocturna}" } %>  
+<%= vo_reserva.button :submit %>
+
+<% end %>
+
+ 

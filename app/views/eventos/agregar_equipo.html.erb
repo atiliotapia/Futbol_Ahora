@@ -1,0 +1,13 @@
+<h2>#Evento, 
+<%=@evento.id%>
+</h2>
+
+
+<%= simple_form_for @evento do |vo| %>
+<%= vo.association :clientes, :label_method => lambda { |r| "#{r.nombre}  #{r.apellido}" }, :prompt => "Seleccione Encargado de Equipo" %>  
+
+<%= vo.button :submit %>
+
+<% end %>
+
+ 

@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  comentario: MyText
+  calificacion: 1
+  cliente_id: 1
+  visible: false
+
+two:
+  comentario: MyText
+  calificacion: 1
+  cliente_id: 1
+  visible: false

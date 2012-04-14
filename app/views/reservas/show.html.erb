@@ -1,0 +1,56 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Cliente:</b>
+  <%= @reserva.cliente_id %>
+</p>
+
+<p>
+  <b>Local:</b>
+  <%= @reserva.local_id %>
+</p>
+
+<p>
+  <b>Fecha emision:</b>
+  <%= @reserva.fecha_emision %>
+</p>
+
+<p>
+  <b>Hora inicio:</b>
+  <%= @reserva.hora_inicio %>
+</p>
+
+<p>
+  <b>Hora final:</b>
+  <%= @reserva.hora_final %>
+</p>
+
+<p>
+  <b>Estado:</b>
+  <%= @reserva.estado %>
+</p>
+
+<p>
+  <b>Validez pre reserva:</b>
+  <%= @reserva.validez_pre_reserva %>
+</p>
+
+<p>
+  <b>Total:</b>
+  <%= @reserva.total %>
+</p>
+
+<h2>Servicios Adquiridos</h2>
+<table>
+<% @reserva.servicios.each do |vo_servicio| %>
+  <tr>
+  <td> <%= vo_servicio.descripcion %> S/.<%= vo_servicio.tarifa_nocturna %>    
+  </td>    
+  </tr>
+<% end %>
+</table>
+
+
+<%= link_to 'Edit', edit_reserva_path(@reserva) %> |
+<%= link_to 'Back', reservas_path %>
+<%= link_to 'Agregar Servicio', agregar_servicio_reserva_path(@reserva) %>

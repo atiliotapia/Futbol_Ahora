@@ -1,0 +1,19 @@
+<%= simple_form_for(@cliente) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="inputs">
+	<%= f.association :clientetipo, :label_method => lambda { |r| "#{r.descripcion} " }, :prompt => 'Seleccione'  %>  	
+    <%= f.input :nombre %>
+    <%= f.input :apellido %>    
+	<%= f.input :sexomasculino, :as => :radio, :label => "Tipo de Sexo: " , :collection => [["Hombre", true], ["Mujer", false]] %>  	
+	<%= f.association :documentotipo, :label_method => lambda { |r| "#{r.descripcion} " }, :prompt => 'Seleccione'  %>  	    
+    <%= f.input :numerodocumento_identidad %>
+    Nacimiento: <%= f.datepicker :fecha_nacimiento  %>
+    <%= f.input :celular %>
+	
+  </div>
+
+  <div class="actions">
+    <%= f.button :submit %>
+  </div>
+<% end %>

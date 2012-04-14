@@ -1,0 +1,16 @@
+<%= simple_form_for(@local) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="inputs">
+	Propietario <%= f.association :cliente, :label_method => lambda { |r| "#{r.nombre} #{r.apellido}" }, :prompt => 'Seleccione'  %>  	    
+    <%= f.association :ciudad, :label_method => lambda { |r| "#{r.descripcion} " }, :prompt => 'Seleccione'  %>  	    
+    <%= f.input :descripcion %>
+    <%= f.input :direccion %>
+    <%= f.input :direccion_google_maps %>
+    <%= f.input :telefono %>    
+  </div>
+
+  <div class="actions">
+    <%= f.button :submit %>
+  </div>
+<% end %>

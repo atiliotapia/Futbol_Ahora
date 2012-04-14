@@ -1,0 +1,11 @@
+<%= simple_form_for(@clientetipo) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="inputs">
+    <%= f.input :descripcion %>
+  </div>
+
+  <div class="actions">
+    <%= f.button :submit %>
+  </div>
+<% end %>

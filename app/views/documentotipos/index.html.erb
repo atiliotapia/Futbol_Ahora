@@ -1,0 +1,23 @@
+<h1>Listing documentotipos</h1>
+
+<table>
+  <tr>
+    <th>Descripcion</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @documentotipos.each do |documentotipo| %>
+  <tr>
+    <td><%= documentotipo.descripcion %></td>
+    <td><%= link_to 'Show', documentotipo %></td>
+    <td><%= link_to 'Edit', edit_documentotipo_path(documentotipo) %></td>
+    <td><%= link_to 'Destroy', documentotipo, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Documentotipo', new_documentotipo_path %>

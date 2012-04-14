@@ -1,0 +1,36 @@
+<h1>Listado publicidades</h1>
+
+<table>
+  <tr>
+	<th>Tipo de Cliente</th>
+    <th>Titulo</th>
+    <th>Contenido</th>
+    <th>Fecha inicio</th>
+    <th>Fecha final</th>
+    <th>Numero click</th>
+    <th>Tarifa</th>
+    
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @publicidads.each do |publicidad| %>
+  <tr>
+	<td><%= publicidad.clientetipo.descripcion %></td>
+    <td><%= publicidad.titulo %></td>
+    <td><%= publicidad.contenido %></td>
+    <td><%= publicidad.fecha_inicio %></td>
+    <td><%= publicidad.fecha_final %></td>
+    <td><%= publicidad.numero_click %></td>
+    <td><%= publicidad.tarifa %></td>    
+    <td><%= link_to 'Show', publicidad %></td>
+    <td><%= link_to 'Edit', edit_publicidad_path(publicidad) %></td>
+    <td><%= link_to 'Destroy', publicidad, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Publicidad', new_publicidad_path %>

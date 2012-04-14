@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  cliente_id: 1
+  local_id: 1
+  fecha_emision: 2012-04-14
+  hora_inicio: 2012-04-14 00:22:04
+  hora_final: 2012-04-14 00:22:04
+  estado: false
+  validez_pre_reserva: 1
+  total: 1
+
+two:
+  cliente_id: 1
+  local_id: 1
+  fecha_emision: 2012-04-14
+  hora_inicio: 2012-04-14 00:22:04
+  hora_final: 2012-04-14 00:22:04
+  estado: false
+  validez_pre_reserva: 1
+  total: 1

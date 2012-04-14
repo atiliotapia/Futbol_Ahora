@@ -1,0 +1,17 @@
+<%= simple_form_for(@publicidad) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="inputs">
+	<%= f.association :clientetipo, :label_method => lambda { |r| "#{r.descripcion}" } %>  
+    <%= f.input :titulo %>
+    <%= f.input :contenido %> <br>
+    Fecha Inico: <%= f.datepicker :fecha_inicio %><br>
+    Fecha Final:<%= f.datepicker :fecha_final %><br>
+    <%= f.input :numero_click %>
+    <%= f.input :tarifa %>    
+  </div>
+
+  <div class="actions">
+    <%= f.button :submit %>
+  </div>
+<% end %>

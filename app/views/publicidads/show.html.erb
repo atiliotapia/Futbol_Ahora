@@ -1,0 +1,43 @@
+<p id="notice"><%= notice %></p>
+
+
+<p>
+  <b>Tipo de Cliente:</b>
+  <%= @publicidad.clientetipo.descripcion %>
+</p>
+
+<p>
+  <b>Titulo:</b>
+  <%= @publicidad.titulo %>
+</p>
+
+<p>
+  <b>Contenido:</b>
+  <%= @publicidad.contenido %>
+</p>
+
+<p>
+  <b>Fecha inicio:</b>
+  <%= @publicidad.fecha_inicio %>
+</p>
+
+<p>
+  <b>Fecha final:</b>
+  <%= @publicidad.fecha_final %>
+</p>
+
+<p>
+  <b>Numero click:</b>
+  <%= @publicidad.numero_click %>
+</p>
+
+<p>
+  <b>Tarifa:</b>
+  <%= @publicidad.tarifa %>
+</p>
+
+
+
+
+<%= link_to 'Edit', edit_publicidad_path(@publicidad) %> |
+<%= link_to 'Back', publicidads_path %>

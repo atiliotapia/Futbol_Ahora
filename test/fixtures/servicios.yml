@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  tiposervicio: false
+  descripcion: MyString
+  local_id: 1
+  tarifa_diurna: 1
+  tarifa_nocturna: 1
+  promocion: false
+
+two:
+  tiposervicio: false
+  descripcion: MyString
+  local_id: 1
+  tarifa_diurna: 1
+  tarifa_nocturna: 1
+  promocion: false

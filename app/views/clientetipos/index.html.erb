@@ -1,0 +1,23 @@
+<h1>Listing clientetipos</h1>
+
+<table>
+  <tr>
+    <th>Descripcion</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @clientetipos.each do |clientetipo| %>
+  <tr>
+    <td><%= clientetipo.descripcion %></td>
+    <td><%= link_to 'Show', clientetipo %></td>
+    <td><%= link_to 'Edit', edit_clientetipo_path(clientetipo) %></td>
+    <td><%= link_to 'Destroy', clientetipo, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Clientetipo', new_clientetipo_path %>
