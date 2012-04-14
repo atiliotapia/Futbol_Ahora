@@ -1,0 +1,85 @@
+<manifest alg="2" build="841" opt="false">
+  <folder name="css">
+    <file name="site_global.css" crc="4180318102"/>
+    <file name="index.css" crc="1554702" ref="index"/>
+    <file name="servicios.css" crc="3960096919" ref="servicios"/>
+    <file name="contáctenos.css" crc="3784365914" ref="contáctenos"/>
+    <file name="blog.css" crc="4257602768" ref="blog"/>
+    <file name="reservas.css" crc="4204251579" ref="reservas"/>
+    <file name="eventos.css" crc="4180393047" ref="eventos"/>
+    <file name="master_a-página-maestra.css" crc="4025273477" ref="index:servicios:contáctenos:blog:reservas:eventos"/>
+  </folder>
+  <folder name="scripts">
+    <folder name="1.1">
+      <file name="jquery-1.7.min.js" crc="526788486" ref="index:servicios:eventos:blog:contáctenos:reservas"/>
+      <file name="sprydomutils.js" crc="119034094" ref="index:servicios:eventos:blog:contáctenos:reservas"/>
+      <file name="museutils.js" crc="3902931878" ref="index:servicios:eventos:blog:contáctenos:reservas"/>
+      <file name="pie.js" crc="942815" ref="index:servicios:eventos:blog:contáctenos:reservas"/>
+      <file name="jquery.musemenu.js" crc="29447578" ref="index:servicios:eventos:blog:contáctenos:reservas"/>
+      <file name="musesprycommon.js" crc="3912185482" ref="index:servicios:eventos:blog:contáctenos:reservas"/>
+      <file name="musesprypanels.js" crc="76662909" ref="index:servicios:eventos:blog:contáctenos:reservas"/>
+      <file name="musespryslideshow.js" crc="19475946" ref="index:servicios:eventos:blog:contáctenos:reservas"/>
+      <file name="jquery.museoverlay.js" crc="110877409" ref="index:servicios:eventos:blog:contáctenos:reservas"/>
+    </folder>
+  </folder>
+  <folder name="images">
+    <file name="gras sintetico1.jpg" crc="4284389213" ref="index:servicios:eventos:blog:contáctenos:reservas"/>
+    <file name="u440-fr.png" crc="26140430" ref="index:servicios:eventos:blog:contáctenos:reservas"/>
+    <file name="u953-fr.png" crc="465692970" ref="index:servicios:eventos:blog:contáctenos:reservas"/>
+    <file name="u226-full.png" crc="82616581" ref="index:servicios:eventos:blog:contáctenos:reservas"/>
+    <file name="u226-2-r-full.png" crc="3919119071" ref="index:servicios:eventos:blog:contáctenos:reservas"/>
+    <file name="u226-3-m-full.png" crc="337599748" ref="index:servicios:eventos:blog:contáctenos:reservas"/>
+    <file name="u226-4-a-full.png" crc="3810569776" ref="index:servicios:eventos:blog:contáctenos:reservas"/>
+    <file name="u200-full.png" crc="82616581" ref="index:servicios:eventos:blog:contáctenos:reservas"/>
+    <file name="u200-2-r-full.png" crc="3919119071" ref="index:servicios:eventos:blog:contáctenos:reservas"/>
+    <file name="u200-3-m-full.png" crc="337599748" ref="index:servicios:eventos:blog:contáctenos:reservas"/>
+    <file name="u200-4-a-full.png" crc="3810569776" ref="index:servicios:eventos:blog:contáctenos:reservas"/>
+    <file name="u803-full.png" crc="82616581" ref="index:servicios:eventos:blog:contáctenos:reservas"/>
+    <file name="u803-2-r-full.png" crc="3919119071" ref="index:servicios:eventos:blog:contáctenos:reservas"/>
+    <file name="u803-3-m-full.png" crc="337599748" ref="index:servicios:eventos:blog:contáctenos:reservas"/>
+    <file name="u803-4-a-full.png" crc="3810569776" ref="index:servicios:eventos:blog:contáctenos:reservas"/>
+    <file name="u205-full.png" crc="82616581" ref="index:servicios:eventos:blog:contáctenos:reservas"/>
+    <file name="u205-2-r-full.png" crc="3919119071" ref="index:servicios:eventos:blog:contáctenos:reservas"/>
+    <file name="u205-3-m-full.png" crc="337599748" ref="index:servicios:eventos:blog:contáctenos:reservas"/>
+    <file name="u205-4-a-full.png" crc="3810569776" ref="index:servicios:eventos:blog:contáctenos:reservas"/>
+    <file name="u235-full.png" crc="82616581" ref="index:servicios:eventos:blog:contáctenos:reservas"/>
+    <file name="u235-2-r-full.png" crc="3919119071" ref="index:servicios:eventos:blog:contáctenos:reservas"/>
+    <file name="u235-3-m-full.png" crc="337599748" ref="index:servicios:eventos:blog:contáctenos:reservas"/>
+    <file name="u235-4-a-full.png" crc="3810569776" ref="index:servicios:eventos:blog:contáctenos:reservas"/>
+    <file name="u265-full.png" crc="82616581" ref="index:servicios:eventos:blog:contáctenos:reservas"/>
+    <file name="u265-2-r-full.png" crc="3919119071" ref="index:servicios:eventos:blog:contáctenos:reservas"/>
+    <file name="u265-3-m-full.png" crc="337599748" ref="index:servicios:eventos:blog:contáctenos:reservas"/>
+    <file name="u265-4-a-full.png" crc="3810569776" ref="index:servicios:eventos:blog:contáctenos:reservas"/>
+    <file name="u123-sprite.png" crc="303954800" ref="index:servicios:eventos:blog:contáctenos:reservas"/>
+    <file name="f5.jpg" crc="4117718034" ref="index:servicios:eventos:blog:contáctenos:reservas"/>
+    <file name="f10.jpg" crc="249319098" ref="index:servicios:eventos:blog:contáctenos:reservas"/>
+    <file name="f13.jpg" crc="3959709272" ref="index:servicios:eventos:blog:contáctenos:reservas"/>
+    <file name="f15.jpg" crc="4009650164" ref="index:servicios:eventos:blog:contáctenos:reservas"/>
+    <file name="f16.jpg" crc="259699554" ref="index:servicios:eventos:blog:contáctenos:reservas"/>
+    <file name="f22.jpg" crc="4104659164" ref="index:servicios:eventos:blog:contáctenos:reservas"/>
+    <file name="f23.jpg" crc="321831935" ref="index:servicios:eventos:blog:contáctenos:reservas"/>
+    <file name="f24.jpg" crc="4221418961" ref="index:servicios:eventos:blog:contáctenos:reservas"/>
+    <file name="f28.jpg" crc="4220528318" ref="index:servicios:eventos:blog:contáctenos:reservas"/>
+    <file name="loading.gif" crc="3815509949" ref="index"/>
+    <file name="actualidad_banner.jpg" crc="4113899259" ref="index:servicios:eventos:blog:contáctenos:reservas"/>
+    <file name="banner publicitario 2.jpg" crc="3862262332" ref="index:servicios:eventos:blog:contáctenos:reservas"/>
+    <file name="u677.jpg" crc="126175742" ref="index:servicios:eventos:blog:contáctenos:reservas"/>
+    <file name="propaga.jpg" crc="278461402" ref="index:servicios:eventos:blog:contáctenos:reservas"/>
+    <file name="u283-grad.png" crc="4023658343" ref="index:servicios:contáctenos"/>
+    <file name="imagesca2rm3kv.jpg" crc="4015522721" ref="servicios"/>
+    <file name="imagescawsxcic.jpg" crc="4233658165" ref="servicios"/>
+    <file name="imagescabcn3gn.jpg" crc="95600191" ref="servicios"/>
+    <file name="futbol-887440.jpg" crc="3796480730" ref="servicios"/>
+    <file name="f34.jpg" crc="519697435" ref="servicios"/>
+    <file name="f35.jpg" crc="3915267959" ref="servicios"/>
+    <file name="f36.jpg" crc="3778527487" ref="servicios"/>
+    <file name="f37.jpg" crc="4092583107" ref="servicios"/>
+    <file name="loading2.gif" crc="3815509949" ref="servicios"/>
+  </folder>
+  <file name="index.html" crc="483585929" mt="1334421091400"/>
+  <file name="servicios.html" crc="134939594" mt="1334421091402"/>
+  <file name="eventos.html" crc="90338899" mt="1334421091406"/>
+  <file name="blog.html" crc="468643435" mt="1334421091408"/>
+  <file name="contáctenos.html" crc="106066357" mt="1334421091412"/>
+  <file name="reservas.html" crc="4229723267" mt="1334421091414"/>
+</manifest>

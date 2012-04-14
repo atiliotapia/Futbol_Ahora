@@ -1,0 +1,311 @@
+#u388-4
+{
+	color: #FFFFFF;
+	font-family: Verdana, Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	position: relative;
+}
+
+#u440
+{
+	border-width: 1px;
+	border-style: solid;
+	border-color: #000000;
+	position: relative;
+	background: #FFFFFF url("../images/u440-fr.png") no-repeat left top;
+	background-color: rgba(255, 255, 255, 0.92);
+	-pie-background: rgba(255, 255, 255, 0.92) url("../images/u440-fr.png") no-repeat left top;
+}
+
+#u109-8
+{
+	color: #FFFFFF;
+	font-style: italic;
+	font-family: Cambria, Georgia, Times, Times New Roman, serif;
+	font-size: 60px;
+	font-weight: bold;
+	position: relative;
+}
+
+#u953
+{
+	border-width: 1px;
+	border-style: solid;
+	border-color: #000000;
+	position: relative;
+	background: #FFFFFF url("../images/u953-fr.png") no-repeat left top;
+	background-color: rgba(255, 255, 255, 0.76);
+	-pie-background: rgba(255, 255, 255, 0.76) url("../images/u953-fr.png") no-repeat left top;
+}
+
+#u119
+{
+	background-image: none;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #000000;
+	background-color: #FFFFFF;
+	opacity: 0.31;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=31)";
+	filter: alpha(opacity=31);
+	position: relative;
+}
+
+._u226.f3s_top
+{
+	background-image: url("../images/u226-full.png");
+	background-position: 0px 0px;
+}
+
+._u226-2.f3s_top
+{
+	background-image: url("../images/u226-2-r-full.png");
+	background-position: 0px 0px;
+}
+
+._u226-3.f3s_top
+{
+	background-image: url("../images/u226-3-m-full.png");
+	background-position: 0px 0px;
+}
+
+._u226-4.f3s_top
+{
+	background-image: url("../images/u226-4-a-full.png");
+	background-position: 0px 0px;
+}
+
+._u200.f3s_top
+{
+	background-image: url("../images/u200-full.png");
+	background-position: 0px 0px;
+}
+
+._u200-2.f3s_top
+{
+	background-image: url("../images/u200-2-r-full.png");
+	background-position: 0px 0px;
+}
+
+._u200-3.f3s_top
+{
+	background-image: url("../images/u200-3-m-full.png");
+	background-position: 0px 0px;
+}
+
+._u200-4.f3s_top
+{
+	background-image: url("../images/u200-4-a-full.png");
+	background-position: 0px 0px;
+}
+
+._u803.f3s_top
+{
+	background-image: url("../images/u803-full.png");
+	background-position: 0px 0px;
+}
+
+._u803-2.f3s_top
+{
+	background-image: url("../images/u803-2-r-full.png");
+	background-position: 0px 0px;
+}
+
+._u803-3.f3s_top
+{
+	background-image: url("../images/u803-3-m-full.png");
+	background-position: 0px 0px;
+}
+
+._u803-4.f3s_top
+{
+	background-image: url("../images/u803-4-a-full.png");
+	background-position: 0px 0px;
+}
+
+._u205.f3s_top
+{
+	background-image: url("../images/u205-full.png");
+	background-position: 0px 0px;
+}
+
+._u205-2.f3s_top
+{
+	background-image: url("../images/u205-2-r-full.png");
+	background-position: 0px 0px;
+}
+
+._u205-3.f3s_top
+{
+	background-image: url("../images/u205-3-m-full.png");
+	background-position: 0px 0px;
+}
+
+._u205-4.f3s_top
+{
+	background-image: url("../images/u205-4-a-full.png");
+	background-position: 0px 0px;
+}
+
+._u235.f3s_top
+{
+	background-image: url("../images/u235-full.png");
+	background-position: 0px 0px;
+}
+
+._u235-2.f3s_top
+{
+	background-image: url("../images/u235-2-r-full.png");
+	background-position: 0px 0px;
+}
+
+._u235-3.f3s_top
+{
+	background-image: url("../images/u235-3-m-full.png");
+	background-position: 0px 0px;
+}
+
+._u235-4.f3s_top
+{
+	background-image: url("../images/u235-4-a-full.png");
+	background-position: 0px 0px;
+}
+
+#u226,#u200,#u803,#u205,#u235,#u265
+{
+	position: relative;
+	visibility: visible;
+}
+
+._u265.f3s_top
+{
+	background-image: url("../images/u265-full.png");
+	background-position: 0px 0px;
+}
+
+._u265-2.f3s_top
+{
+	background-image: url("../images/u265-2-r-full.png");
+	background-position: 0px 0px;
+}
+
+._u265-3.f3s_top
+{
+	background-image: url("../images/u265-3-m-full.png");
+	background-position: 0px 0px;
+}
+
+#u226-2,#u226-3,#u226-4,#u200-2,#u200-3,#u200-4,#u803-2,#u803-3,#u803-4,#u205-2,#u205-3,#u205-4,#u235-2,#u235-3,#u235-4,#u265-2,#u265-3,#u265-4
+{
+	position: relative;
+	visibility: hidden;
+}
+
+._u265-4.f3s_top
+{
+	background-image: url("../images/u265-4-a-full.png");
+	background-position: 0px 0px;
+}
+
+#u228-4,#u228-8,#u228-12,#u228-16,#u203-4,#u203-8,#u203-12,#u203-16,#u805-4,#u805-8,#u805-12,#u805-16,#u208-4,#u208-8,#u208-12,#u208-16,#u236-4,#u236-8,#u236-12,#u236-16,#u268-4,#u268-8,#u268-12,#u268-16
+{
+	color: #FFFFFF;
+	font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
+	font-size: 12px;
+	text-align: center;
+	position: relative;
+}
+
+._u123.f3s_top
+{
+	background-image: url("../images/u123-sprite.png");
+	overflow: hidden;
+	background-position: 0px 0px;
+}
+
+._u123.f3s_mid
+{
+	background-image: url("../images/u123-sprite.png");
+	overflow: visible;
+	background-position: -947px 0px;
+}
+
+._u123.f3s_bot
+{
+	background-image: url("../images/u123-sprite.png");
+	overflow: visible;
+	background-position: -1894px 0px;
+}
+
+#u389,#u354
+{
+	border-width: 1px;
+	border-style: solid;
+	border-color: #000000;
+	background-color: #FFFFFF;
+	position: relative;
+}
+
+.MenuItem,.SSFirstButton,.SSPreviousButton,.SSNextButton,.SSLastButton,.SSSlideLink,.SSCloseButton /* unifiedNavBar */
+{
+	cursor: pointer;
+}
+
+.SSSlideLoading /* slideshowFreeStyle */
+{
+	background-image: url("../images/loading.gif");
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+#u287
+{
+	border-style: none;
+	background-color: transparent;
+	position: relative;
+}
+
+#menuu196,#u225,#u197,#u802,#u204,#u232,#u262,#u123,#slideshowu453,#slideshowu612
+{
+	position: relative;
+}
+
+#u477,#u636
+{
+	position: absolute;
+	background-image: none;
+	border-style: none;
+	background-color: transparent;
+}
+
+#u478,#u487,#u490,#u540,#u549,#u558,#u567,#u576,#u585,#u594,#u603,#u637,#u668,#u677,#u686
+{
+	border-style: none;
+	background-color: #383838;
+	position: relative;
+}
+
+#u490_img,#u540_img,#u549_img,#u558_img,#u567_img,#u576_img,#u585_img,#u594_img,#u603_img,#u637_img,#u668_img,#u677_img,#u686_img
+{
+	vertical-align: top;
+}
+
+#u416-4
+{
+	border-width: 1px;
+	border-style: solid;
+	border-color: #000000;
+	background-color: #000000;
+	color: #FFFFFF;
+	font-family: Verdana, Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	text-align: center;
+	position: relative;
+}
+
+#u109-2,#u109-2,#u109-2,#u109-2,#u109-2,#u109-2,#u109-4,#u109-4,#u109-4,#u109-4,#u109-4,#u109-4
+{
+	color: #000000;
+}
+
